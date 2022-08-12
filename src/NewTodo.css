@@ -1,0 +1,39 @@
+#input {
+    text-align: center;
+    border-width: 3px;
+    border-color: #D2B48C;
+    border-style: solid;
+    background-color: #ffb6c1;
+    border-radius: 4px;
+    font-family: Tahoma;
+    font-size: 1.5em;
+}
+#addBtn {
+    text-align: center;
+    border-width: 3px;
+    border-color: #D2B48C;
+    border-style: solid;
+    border-radius: 4px;
+    font-family: Tahoma;
+    font-size: 1.5em;
+    margin: 5px;
+}
+
+.addItem {
+    margin: auto;
+    max-width: 50%;
+    text-align: center;
+}
+
+input:hover {
+  background-color: #bbb;
+}
+
+@media only screen and (max-width:701px) {
+    .addItem input {
+        text-align: center;
+        font-size: 0.3em;
+        padding: 5px;
+        margin: 5px;
+    }
+}

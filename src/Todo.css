@@ -1,0 +1,36 @@
+li {
+    width:800px;
+    color: #b19cd9;
+    font-size: 1em;
+    text-align: center;
+    font-family: Tahoma;
+    padding: 20px;
+    margin: 10px;
+    display:flex;
+}
+
+li button {
+    cursor: pointer;
+    text-align: center;
+    border-width: 3px;
+    border-color: #D2B48C;
+    border-style: solid;
+    border-radius: 4px;
+    font-family: Tahoma;
+    font-size: 1em;
+    background-color: #ffb6c1;
+    margin: 5px;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+@media only screen and (max-width:701px) {
+    body{
+        text-align: center;
+        font-size: 0.6em;
+        padding:5px;
+        margin: 5px;
+    }
+}

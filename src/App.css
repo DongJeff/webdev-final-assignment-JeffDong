@@ -1,0 +1,114 @@
+body{
+    background-color:#ccc;
+}
+.completed {
+    text-decoration: line-through;
+}
+div {
+    margin: auto;
+    max-width: 100%;
+    text-align: center;
+}
+
+.taskDone {
+    text-align: center;
+    border-width: 3px;
+    border-color: #D2B48C;
+    border-style: solid;
+    background-color: #ffb6c1;
+    border-radius: 4px;
+    font-family: "Palatino", "Palatino Linotype",
+    "Palatino LT STD", "Book Antiqua", Georgia, serif;;
+    font-size: 0.5em;
+    height:3em;
+    vertical-align:middle;
+}
+#addBtn {
+    text-align: center;
+    border-width: 3px;
+    border-color: #D2B48C;
+    border-style: solid;
+    border-radius: 4px;
+    font-family: Tahoma;
+    font-size: 1.5em;
+    margin: 5px;
+}
+
+input:hover {
+  background-color: #bbb;
+}
+
+h1{
+    font-size: 5em;
+    font-family: "Palatino", "Palatino Linotype",
+    "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    text-align: center;
+}
+
+ul{
+    text-align: center;
+    font-family: Tahoma;
+    list-style-type: none;
+    max-width: 100%;
+    color: #b19cd9;
+    font-size: 2em;
+    font-family: Tahoma;
+    padding: 20px;
+    margin: 10px;
+    display:inline;
+    margin-left:30%;
+}
+
+li {
+    width: 100%;
+    color: #b19cd9;
+    font-size: 2em;
+    text-align: center;
+    font-family: Tahoma;
+    padding: 20px;
+    margin: 10px;
+    display:inline;
+}
+.item{
+    max-width: 100%;
+    text-align:center;
+    margin-left: 30%;
+}
+button {
+    cursor: pointer;
+    text-align: center;
+    border-width: 3px;
+    border-color: #D2B48C;
+    border-style: solid;
+    border-radius: 4px;
+    font-family: Tahoma;
+    font-size: 1em;
+    background-color: #ffb6c1;
+    margin: 5px;
+}
+
+@media only screen and (max-width:701px) {
+    .header input {
+        text-align: center;
+        font-size: 0.3em;
+        padding: 5px;
+        margin: 5px;
+    }
+    body{
+        text-align: center;
+        font-size: 0.6em;
+        padding:5px;
+        margin: 5px;
+    }
+    h1{
+        text-align: center;
+        font-size: 2em;
+        padding: 5px;
+        margin: 5px;
+    }
+    .item{
+        max-width: 100%;
+        text-align:center;
+        margin-left: 40%;
+    }
+}
